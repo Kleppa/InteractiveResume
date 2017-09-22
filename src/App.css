@@ -1,0 +1,246 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    background: url('imgs/SplitShire_IMG_9970.jpg');
+
+    background-size: 100% 100%;
+    height: 39.8em;
+    width: 100%;
+
+}
+
+.seeThruHeader {
+    background: linear-gradient(to left, red, purple);
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+    height: 39.8em;
+    width: 100%;
+}
+
+#pageIntro {
+    display: inline-block;
+    top: 5em;
+    padding-bottom: 5px;
+    border-bottom: 0.01em solid white;
+    font-size: 3em;
+
+}
+
+#subHeader {
+    font-size: 2em;
+    top: 8.5em;
+}
+
+h1, h2 {
+    position: relative;
+    text-shadow: 1px 1px 1px #000;
+    color: white;
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+p {
+
+    color: white;
+    font-size: 1.5em;
+    border-color: red;
+}
+
+
+li {
+    border-color: white;
+
+}
+
+#list {
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    z-index: 1;
+    right: 2.05em;
+    position: absolute;
+    background: black;
+    display: inline-block;
+    width: 9.5em;
+
+}
+
+
+.aboutMeTitle{
+    font-size:2em;
+    position: absolute;
+    top:0em;
+    left:3.5em;
+
+
+
+
+}
+.aboutMe{
+    overflow: hidden;
+    background-color: white;
+    z-index: -2;
+    position: absolute;
+    top:39.8em;
+    width: 100%;
+    height: 100%;
+}
+
+#startOfList{
+    overflow: hidden;
+    bottom: 0;
+    right:3em;
+    position: absolute;
+    width: 13.8em;
+    height: 6.5em;
+    background-color: black;
+    z-index: 3;
+    padding: 0;
+    border: none;
+
+}
+a {
+    text-decoration: none;
+
+}
+#turnUpsideDown{
+    animation: MoveUpDown 1s linear infinite;;
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+    font-size: 6em;
+    padding: 0;
+    margin: 0;
+}
+@keyframes MoveUpDown {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.imgOfCreator{
+    left:36%;
+    position: absolute;
+    top:12em;
+    height: 22em;
+    width: 22em;
+    -webkit-border-radius: 12em;
+    -moz-border-radius: 12em;
+    border-radius: 12em;
+
+}
+.aboutMe>*,div>.aboutMeTitle{
+    color: #FF5671;
+}
+#detailsStart{
+    color:#FF5671 ;
+    left:0em;
+
+    position: absolute;
+}
+.aboutMe>.subtextHeader,div>.aboutMeTitle {
+
+    border-bottom: #FF5671;
+    border-bottom: 0.01em solid #FF5671;
+}
+.aboutMeHeader{
+
+    font-weight:100;
+    margin: 0;
+    top:0;
+    font-size: 6em;
+    position: absolute;
+    left: 40%;
+}
+.subtextHeader{
+    border-bottom: 0.001em solid;
+    position: absolute;
+    top:4em;
+    left:40%;
+
+}
+#aboutMeText{
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    width: 20em;
+    height: 10em;
+    top:4em;
+    left:2em;
+}
+#colorBox{
+
+    top: 12em;
+    left:3em;
+    height: 25em;
+    width: 25em;
+    position: absolute;
+}
+#details{
+
+    position: absolute;
+    right: 13em;
+    top:12em;
+    width: 15em;
+    height: 25em;
+    overflow: hidden;
+}
+.expSec{
+    position: absolute;
+    top:80em;
+}
+#detailsStart,#detailsContent{
+    color: #FF5671;
+}
+#detailsContent,#name{
+    top:1.50em;
+    position: absolute;
+}
+#name {
+    color: black;
+    font-size: 1.25em;
+    margin-top: 25px;
+}
