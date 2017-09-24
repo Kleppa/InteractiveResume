@@ -20,7 +20,7 @@ class App extends Component {
                     <h1 id="pageIntro">Jarand Waage Kleppa</h1>
                     <h2 id="subHeader">Interactive Resume</h2>
                     <button id="startOfList" href="" onClick={()=>scrollToComponent(this.aboutMe)}><p id="turnUpsideDown">	&#8744;</p></button>
-                    <AboutMe ref={(div) => { this.aboutMe = div; }}/>
+                    <AboutMe />
                     <ExperienceSection/>
 
 

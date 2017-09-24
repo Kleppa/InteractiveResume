@@ -4,7 +4,11 @@ export default class ExperienceSection extends Component{
     render(){
         return(
           <div className="expSec">
-              this is a test
+             <p className="aboutMeHeader" style={{left:'38%'}}>Skill set</p>
+             <p className="subtextHeader" style={{left:'28%'}}>“Life without knowledge is death in disguise.”
+                 - Talib Kweli
+
+             </p>
           </div>
         );
     }

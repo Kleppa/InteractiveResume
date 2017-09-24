@@ -8,8 +8,10 @@ export default class ContentList extends Component {
         this.state= {
             contents: [
                 {title: 'Profile', id: 1},
-                {title: 'Experience', id: 2},
-                {title: 'Skill', id: 3}
+
+                {title: 'Skill', id: 3},
+                {title: 'Experience', id: 2}
+
             ]
         }
 

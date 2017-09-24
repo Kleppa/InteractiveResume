@@ -103,13 +103,10 @@ li {
 }
 
 
-.aboutMeTitle{
+.title{
     font-size:2em;
     position: absolute;
     top:0em;
-    left:3.5em;
-
-
 
 
 }
@@ -172,7 +169,7 @@ a {
     border-radius: 12em;
 
 }
-.aboutMe>*,div>.aboutMeTitle{
+.aboutMe>*,div>.title{
     color: #FF5671;
 }
 #detailsStart{
@@ -181,7 +178,7 @@ a {
 
     position: absolute;
 }
-.aboutMe>.subtextHeader,div>.aboutMeTitle {
+.aboutMe>.subtextHeader,div>.title {
 
     border-bottom: #FF5671;
     border-bottom: 0.01em solid #FF5671;
@@ -203,18 +200,19 @@ a {
 
 }
 #aboutMeText{
-    color: white;
+    text-align: left;
+    color: black;
     font-size: 1em;
     position: absolute;
     width: 20em;
     height: 10em;
     top:4em;
-    left:2em;
+
 }
 #colorBox{
 
     top: 12em;
-    left:3em;
+    left:8em;
     height: 25em;
     width: 25em;
     position: absolute;
@@ -222,15 +220,18 @@ a {
 #details{
 
     position: absolute;
-    right: 13em;
+    right: 11em;
     top:12em;
     width: 15em;
     height: 25em;
     overflow: hidden;
 }
 .expSec{
+    background-color: #FF5671;
     position: absolute;
     top:80em;
+    height: 40em;
+    width: 100%;
 }
 #detailsStart,#detailsContent{
     color: #FF5671;
