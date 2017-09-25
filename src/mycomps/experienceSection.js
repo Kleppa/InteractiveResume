@@ -11,7 +11,6 @@ export default class ExperienceSection extends Component{
                 {skill:'HTML',stars:'5',id:3},
                 {skill:'CSS',stars:'5',id:4 }
             ]
-
         }
     }
     render(){
