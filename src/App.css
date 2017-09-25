@@ -54,7 +54,7 @@
     top: 5em;
     padding-bottom: 5px;
     border-bottom: 0.01em solid white;
-    font-size: 3em;
+    font-size: 4vw;
 
 }
 
@@ -95,11 +95,11 @@ li {
     border-bottom-right-radius: 0.3em;
     z-index: 1;
     right: 2.05em;
-    position: absolute;
     background: black;
     display: inline-block;
     width: 9.5em;
-
+    top:39.8em;
+    position: absolute;
 }
 
 
@@ -174,7 +174,7 @@ a {
 }
 #detailsStart{
     color:#FF5671 ;
-    left:0em;
+    left:0;
 
     position: absolute;
 }

@@ -5,10 +5,10 @@ export default class ContentList extends Component {
 
     constructor (props) {
         super(props)
+
         this.state= {
             contents: [
                 {title: 'Profile', id: 1},
-
                 {title: 'Skill', id: 3},
                 {title: 'Experience', id: 2}
 
@@ -17,8 +17,12 @@ export default class ContentList extends Component {
 
     }
     render() {
+
+        let test = 'position: '+ this.props.valueOfPos;
+        console.log(test)
+
         return (
-            <div id="list">
+            <div id="list" style={{test}}>
                 <ul>
                     {this.state.contents.map((content)=>{
                         return (<Li key={content.id} title={content.title}/>)
