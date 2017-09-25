@@ -9,7 +9,7 @@
     "react-dom": "^15.6.1",
     "react-github-button": "^0.1.11",
     "react-material-icons": "^1.0.2",
-    "react-scripts": "1.0.13",
+    "react-scripts": "^1.0.13",
     "react-scroll-to-component": "^1.0.1",
     "react-scrollable-anchor": "^0.5.0",
     "react-tap-event-plugin": "^2.0.1",
