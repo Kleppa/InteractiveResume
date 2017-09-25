@@ -51,16 +51,16 @@
 
 #pageIntro {
     display: inline-block;
-    top: 5em;
+
     padding-bottom: 5px;
     border-bottom: 0.01em solid white;
-    font-size: 3em;
+    font-size: 4vw;
 
 }
 
 #subHeader {
-    font-size: 2em;
-    top: 8.5em;
+    font-size: 3vw;
+
 }
 
 h1, h2 {
@@ -95,11 +95,11 @@ li {
     border-bottom-right-radius: 0.3em;
     z-index: 1;
     right: 2.05em;
-    position: absolute;
     background: black;
     display: inline-block;
     width: 9.5em;
-
+    top:39.8em;
+    position: absolute;
 }
 
 
@@ -125,8 +125,8 @@ li {
     bottom: 0;
     right:3em;
     position: absolute;
-    width: 13.8em;
-    height: 6.5em;
+    width: 11.9%;
+    height: 11.9%;
     background-color: black;
     z-index: 3;
     padding: 0;
@@ -141,8 +141,10 @@ a {
     animation: MoveUpDown 1s linear infinite;;
     display: inline-block;
     position: absolute;
-    left: 36%;
-    font-size: 6em;
+
+    left: 35%;
+    font-size: 65px;
+    padding-top: 10px;
     padding: 0;
     margin: 0;
 }
@@ -174,7 +176,7 @@ a {
 }
 #detailsStart{
     color:#FF5671 ;
-    left:0em;
+    left:0;
 
     position: absolute;
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import MyContentList from './mycontentlist.js';
+
 import RaisedButtons from './button.js';
 
 
@@ -39,7 +39,7 @@ export default class AboutMe extends Component {
                 </div>
                 <img className="imgOfCreator" alt={this.state.altText} src={this.state.imgUrl}/>
 
-                <MyContentList/>
+
 
             </div>
 
