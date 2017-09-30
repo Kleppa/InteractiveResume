@@ -32,10 +32,11 @@
 }
 
 .App {
-    background: url('imgs/SplitShire_IMG_9970.jpg');
 
+    background: url('https://tinyurl.com/y7qavu9u');
+    padding: 0;
     background-size: 100% 100%;
-    height: 39.8em;
+    height: 100vh;
     width: 100%;
 
 }
@@ -45,14 +46,14 @@
     position: absolute;
     top: 0;
     opacity: 0.3;
-    height: 39.8em;
+    height: 100%;
     width: 100%;
 }
 
 #pageIntro {
-    display: inline-block;
 
-    padding-bottom: 5px;
+    display: inline-block;
+    padding-bottom: 1vh;
     border-bottom: 0.01em solid white;
     font-size: 4vw;
 
@@ -60,7 +61,6 @@
 
 #subHeader {
     font-size: 3vw;
-
 }
 
 h1, h2 {
@@ -81,11 +81,13 @@ p {
 
     color: white;
     font-size: 1.5em;
-    border-color: red;
+
 }
 
 
 li {
+    margin: 0;
+    padding: 0;
     border-color: white;
 
 }
@@ -94,58 +96,63 @@ li {
     border-bottom-left-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     z-index: 1;
-    right: 2.05em;
+    right:3em;
     background: black;
     display: inline-block;
-    width: 9.5em;
-    top:39.8em;
+    width: 23.7vh;
+    top:100vh;
     position: absolute;
 }
 
 
 .title{
-    font-size:2em;
+    font-size:6vh;
     position: absolute;
     top:0em;
 
 
 }
 .aboutMe{
-    overflow: hidden;
-    background-color: white;
-    z-index: -2;
-    position: absolute;
-    top:39.8em;
     width: 100%;
     height: 100%;
+    padding-bottom: 10em;
+    background-color: white;
+    position: absolute;
+    top:100vh;
+
 }
 
 #startOfList{
     overflow: hidden;
-    bottom: 0;
+    top: 87%;
     right:3em;
     position: absolute;
-    width: 11.9%;
-    height: 11.9%;
+    width: 23.7vh;
+    height: 13vh;
     background-color: black;
     z-index: 3;
     padding: 0;
-    border: none;
+
 
 }
 a {
     text-decoration: none;
 
 }
+.abHeadSubCont{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
 #turnUpsideDown{
     animation: MoveUpDown 1s linear infinite;;
-    display: inline-block;
+
     position: absolute;
 
-    left: 35%;
-    font-size: 65px;
-    padding-top: 10px;
-    padding: 0;
+    left: 7vh;
+    font-size: 14vh;
+
     margin: 0;
 }
 @keyframes MoveUpDown {
@@ -153,7 +160,7 @@ a {
         bottom: 0;
     }
     50% {
-        bottom: 10px;
+        bottom: 1vh;
     }
     100% {
         bottom: 0;
@@ -161,26 +168,26 @@ a {
 }
 
 .imgOfCreator{
-    left:36%;
+    top:33%;
     position: absolute;
-    top:12em;
-    height: 22em;
-    width: 22em;
-    -webkit-border-radius: 12em;
-    -moz-border-radius: 12em;
-    border-radius: 12em;
+    left:40%;
+    height: 50vh;
+    width: 50vh;
+    -webkit-border-radius: 40vh;
+    -moz-border-radius: 40vh;
+    border-radius: 40vh;
 
 }
-.aboutMe>*,div>.title{
+.aboutMe>*,div>.title,.abHeadSubCont>*{
     color: #FF5671;
 }
 #detailsStart{
     color:#FF5671 ;
-    left:0;
+    font-size: 6vh;
 
     position: absolute;
 }
-.aboutMe>.subtextHeader,div>.title {
+.aboutMe>.subtextHeader,div>.title  {
 
     border-bottom: #FF5671;
     border-bottom: 0.01em solid #FF5671;
@@ -190,60 +197,63 @@ a {
     font-weight:100;
     margin: 0;
     top:0;
-    font-size: 6em;
+    font-size: 20vh;
     position: absolute;
-    left: 40%;
+    left: 38%;
 }
 .subtextHeader{
+    font-size: 4vh;
     border-bottom: 0.001em solid;
     position: absolute;
-    top:4em;
+    top:6em;
     left:40%;
 
 }
 #aboutMeText{
     text-align: left;
     color: black;
-    font-size: 1em;
-    position: absolute;
-    width: 20em;
-    height: 10em;
-    top:4em;
+    font-size: 2.8vh;
+    position: relative;
+    width: 45vh;
+    height: 40vh;
+    top:2.8em;
 
 }
 #colorBox{
-
-    top: 12em;
-    left:8em;
-    height: 25em;
-    width: 25em;
+    height: 100%;
+    width: 20%;
+    top:30%;
+    left:15%;
     position: absolute;
 }
 #details{
-
+    height: 100%;
     position: absolute;
-    right: 11em;
-    top:12em;
-    width: 15em;
-    height: 25em;
-    overflow: hidden;
+    top:30%;
+    right: 10%;
+    width: 25%;
+
 }
 .expSec{
     background-color: #FF5671;
-    position: absolute;
-    top:80em;
-    height: 40em;
+    position: relative;
+    height: 100%;
     width: 100%;
+    top:180vh;
 }
 #detailsStart,#detailsContent{
     color: #FF5671;
+}
+#details>*>*{
+    left:2em;
 }
 #detailsContent,#name{
     top:1.50em;
     position: absolute;
 }
 #name {
+    top:0.8em;
     color: black;
-    font-size: 1.25em;
+    font-size: 4vh;
     margin-top: 25px;
 }

@@ -19,7 +19,7 @@ function RaisedButtons(props) {
     return (
 
 
-            <Button raised color="primary" className={classes.button} onClick={()=>{ window.location.href='https://github.com/Kleppa';}}>
+            <Button raised color="primary" id="jumphere" className={classes.button}style={{top:'33%', position:'absolute', left:'0'}} onClick={()=>{ window.location.href='https://github.com/Kleppa';}}>
                 My GitHub
             </Button>
     )

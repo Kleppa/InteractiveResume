@@ -9,6 +9,7 @@ import ExperienceSection from './mycomps/experienceSection';
 import MyContentList from './mycomps/mycontentlist.js';
 
 
+
 class App extends Component {
 
     render() {
@@ -25,15 +26,20 @@ class App extends Component {
             checkListPos(),
 
                 <Container className="App">
-                    <Container className="seeThruHeader"/>
-                    <Container style={{top:"16em",position:'absolute', left:'30%'}}>
+                    <Container className="seeThruHeader "/>
+                    <Container style={{top:"32vh",position:'absolute',width:'10em',height:'10em'}}/>
+                    <Container style={{top:"32vh",position:'relative'}}textAlign='right'>
+
                     <h1 id="pageIntro">Jarand Waage Kleppa</h1>
                     <h2 id="subHeader">Interactive Resume</h2>
                     </Container>
-                    <button id="startOfList" onClick={()=>scrollToComponent(this.aboutMe)}><p id="turnUpsideDown">	&#8744;</p></button>
+                    <Container id="startOfList" onClick={()=>scrollToComponent(this.aboutMe)}><p id="turnUpsideDown">	&#8744;</p></Container>
+
                     <MyContentList valueOfPos={posVal}/>
-                    <AboutMe ref={(div) => { this.aboutMe = div; }} />
+
+                    <AboutMe ref={(Container) => { this.aboutMe = Container; }} />
                     <ExperienceSection/>
+
 
 
                 </Container>

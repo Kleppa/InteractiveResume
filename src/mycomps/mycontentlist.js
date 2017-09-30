@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Container} from 'semantic-ui-react';
 
 export default class ContentList extends Component {
 
@@ -11,7 +11,6 @@ export default class ContentList extends Component {
                 {title: 'Profile', id: 1},
                 {title: 'Skill', id: 3},
                 {title: 'Experience', id: 2}
-
             ]
         }
 
@@ -22,18 +21,18 @@ export default class ContentList extends Component {
         console.log(test)
 
         return (
-            <div id="list" style={{test}}>
+            <Container id="list" style={{test}}>
                 <ul>
                     {this.state.contents.map((content)=>{
                         return (<Li key={content.id} title={content.title}/>)
                     })
                     }
                 </ul>
-            </div>
+            </Container>
         )
     }
 }
 
 let Li = (props) => {
-    return ( <li><a><p>{props.title}</p></a> </li>);
+    return ( <li ><a><p style={{fontSize:'3vh'}}>{props.title}</p></a> </li>);
 }
